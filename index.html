@@ -31,34 +31,47 @@
 				Visualization Insights & Reactions
 			</h3>
 
-			<p>This visualization appeared in a <a href="https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html" target="_blank">Guest Essay</a> (Opinions Section) of the New York Times entitled “Here’s When We Expect Omicron to Peak,” on January 6, 2022. The article was authored by Dr. Jeffrey Shaman, a professor and scholar of infectious disease and environmental epidemiology. As part of his study on human-environmental interaction, Dr. Shaman creates mathematical models of infectious disease patterns, such as the one we are analyzing in this assignment. This visualization invites viewers to decipher some key visually encoded information about new COVID-19 cases in the United States:</p>
+			<p>This visualization appeared in a <a href="https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html" target="_blank">Guest Essay</a> (Opinions Section) in the New York Times entitled “Here’s When We Expect Omicron to Peak,” on January 6, 2022. The article was authored by Dr. Jeffrey Shaman, a professor and scholar of infectious disease and environmental epidemiology. As part of his study on human-environmental interaction, Dr. Shaman creates mathematical models of infectious disease patterns, such as the one we are analyzing in this assignment. This visualization invites viewers to decipher some key visually encoded information about new COVID-19 cases in the United States. For example, I observed:</p>
 
 			<ul>
-				<li>Data is provided for the period January 2020 - January 2022, with successive years stacked on top of one another and months visualized on a radial spectrum. </li>
-				<li>The number of new COVID-19 cases tended to trend downwards in warmer months (roughly May-June). </li>
+				<li>Data is provided for the period January 2020 - January 2022, with successive years stacked on top of one another and months visualized on a radial spectrum of time (monthly). </li>
+				<li>The number of new COVID-19 cases appear to trend downwards in warmer months (roughly May-June). </li>
 				<li>Peak new COVID-19 numbers (based on naked eye approximation) appear to occur in mid-December 2020, mid-January 2021, and January 2022.</li>
-				<li>The styling of January 2022 cases implies sustained growth and appears to be the absolute peak to me. </li>
+				<li>The styling of January 2022 cases implies sustained growth and appears to be the absolute peak of new cases to me. This is emphasized by the encroaching of January 2022 data on the data from the previous January in the nested inner circle.</li>
 				<li>Trough new COVID-19 numbers excepting disease onset (based on naked eye approximation) appear to occur in early June 2021. </li>
 			</ul>
 
 			<h3>
 				Visualization Design Critiques
 			</h3>
-			<p>The visualization in question is inextricably linked to the context in which it is provided to the reader: as public health information during a pandemic, as the work of an environmental epidemiologist, and as a guest essay in the Opinion section. As such, we can imagine the target audience is NYT subscribers (as well as a wider range of media news consumers, following the Times’ dropping of its paywall on COVID-19 coverage). As we may remember, the average consumer of media news at the time of the article’s publication in January 2022 was intimately familiar with COVID-19 coverage. At the time, many people were engaged in an information environment in which they followed new daily case numbers. This article addresses the spread of Omicron, a less deadly but more contagious COVID-19 strain the wreaked havoc on case numbers in late 2021 and early 2022. Such is the contextual grounding of the visualization created by Dr. Shaman and his team.</p>
+			<p>The visualization in question is inextricably linked to the context in which it is provided to the reader: as public health information during a pandemic, as the work of an environmental epidemiologist, and as a guest essay in an Opinion section. As such, we can imagine the target audience is NYT subscribers (as well as a wider range of media news consumers, following the Times’ dropping of its paywall on COVID-19 coverage). As we may remember, the average consumer of media news at the time of the article’s publication in January 2022 was intimately familiar with COVID-19 coverage. At the time, many people were engaged in an information environment in which they followed new daily case numbers. This article addresses the spread of Omicron, a less deadly but more contagious COVID-19 strain the wreaked havoc on case numbers in late 2021 and early 2022. Such is the contextual grounding of the visualization created by Dr. Shaman and his team.</p>
 
 			<p>Turning to explicit design considerations, I believe the visualization is generally eye-catching to readers with its Seussian form (fulfilling its purpose of disseminating epidemiological/public health information to the public). However, after exploring both the visualization and the data it encodes, I believe some tweaks to layout, styling, and labeling could be generally supportive. </p>
 			<ul>
 				<li>After making some minor design tweaks (centering radial circles, writing out every month name but in de-emphasized font styling, etc.) I would first deal with the treatment of color. Creating a color gradient that is quantitatively significant and derived from the # of new COVID-19 cases (such as the graduated color methodologies employed in choropleth mapping) would have made it easier for viewers to identify periods of greater disease incidence as compared across the three years. For instance, I believe the original visualization does not accurately portray the spike in cases that took place around September 2021. Additionally, employing three color gradients (one for each year) would be further conducive to encoding meaning through color. </li>
-				<li>It could also be useful to depict the passage of time differently than the original visualization. I appreciate the visualization’s affirmation of cyclical time and seasonality, and it is easy to infer where to start with reading the form chronologically. However, I would play with creating standardized concentric circles to represent years—both nested and unnested but existing next to one another in space.</li>
-				<li>Finally, and going beyond the data represented here, it would have been useful to include or create a proxy to represent hospital burden (# ICU beds in utilization, # hospitals with reported staffing shortages, # ventilators in deficit, etc.). Or if the inclusion of additional data is not possible, perhaps adding annotations around how these numbers contextualized within wider policy and pandemic developments as useful milestones for the viewer. The guest essay speaks the language of “long-term implications” and “burden” but there is no mention of the health system’s burden in this main visualization. </li>
+				<li>It could also be useful to depict the passage of time differently than the original visualization. I appreciate the visualization’s affirmation of cyclical time and seasonality, and it is easy to infer where to start with reading the form chronologically. However, I would play with creating standardized concentric circles to represent years—both (1) nested and (2) unnested but existing next to one another in space.</li>
+				<li>Finally, and going beyond the data represented here, it would have been useful to include or create a proxy to represent hospital burden (# ICU beds in utilization, # hospitals with reported staffing shortages, # ventilators in deficit, etc.). Or if the inclusion of additional data is not possible, perhaps adding annotations around how these numbers are contextualized within wider policy and pandemic developments as useful milestones for the viewer. The guest essay speaks the language of “long-term implications” and “burden” but there is no mention of the health system’s burden in this main visualization. </li>
 			</ul>
 		</section>
 
 		<section>
 			<h2>Visualization Sketches</h2>
 
-			<p>Note: To prepare the below visualizations, I applied some minor transformations and data cleaning to the original dataset. Firstly, I opted to work with data for the period of January 13, 2020 (the first day available in the dataset) through January 6, 2022 (the date of the article’s publication). Although we have consistent data available through September 15, 2022, I felt it was most realistic to work with roughly the available data that the epidemiologists and modelers had available to them at the time of publication and visualization creation. Additionally, </p>
+			<p>To prepare the below visualizations, I applied some minor transformations and data cleaning to the original dataset. Firstly, I opted to work with data for the period of January 13, 2020 (the first day available in the dataset) through January 6, 2022 (the date of the article’s publication). Although we have consistent data available through September 15, 2022, I felt it was most realistic to work with roughly the available data that the epidemiologists and modelers had available to them at the time of publication and visualization creation. Additionally, for the purposes of the following three sketches (and ultimately my final, reimagined visualization) I created a new dataset that aggregated data by month for the fields “new_confirmed,” “new_deceased”, and “new_tested.” I also created the field “bucket,” which categorized the months into quintiles (1-5) on the basis of their number of “new_confirmed” cases. I will speak more to the mythology of these buckets in the sketch rationale and final design rationale. In the three sketches that follow, I only utilized data from the “new_confirmed” field, as per alignment with the original visualization that visualized this field as well. 
 
+			</p>
+
+			<figure>
+				<img src="images/manipulated_data.png" alt="" 
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto;"/>
+				<figcaption>
+				Data Transformations Applied to Create Cumulative Month Statistics and Quintile Buckets | Source: Google Covid-19 Open Data
+				</figcaption>
+			</figure>
+
+			<p>
+				Data Rationale: For the purposes of reimagining Dr. Shaman’s design, I knew that I wanted to employ a methodology to convert the continuous representation of new COVID-19 cases into discrete bins to uncover temporal trends in a more user-friendly and geospatially legible manner. I created the 5 bins to do so, even though this introduces the normative decision choice of continuous representation within the bins. For example, we know that the intensity of new confirmed cases was likely not the same every day of a particular month. However, given the context of the visualization (disseminated in a mass publication for a society that was, let’s be honest, burnt out from studying COVID-19 visualizations) I felt this was an apt choice for the public communication of scientific data. 
+			</p>
       <figure>
 				<img src="images/vis_01.jpg" alt="" 
 				style="max-width: 100%; height: auto; display: block; margin: 0 auto;"/>
@@ -67,14 +80,11 @@
 				</figcaption>
 			</figure>
 
-			<p>
-				Design Rationale for Sketch 1:
-			</p>
+			<h3>Design Rationale for Sketch 1</h3>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>I really enjoyed Dr. Shaman’s circular conceptualization of time as illustrated in the visualization. However, I found the off-center radial styling distracting to my comprehension of the chart. As such, I centered the visualization and opted to create concentric “heat map” circles for more accessible comparison between months of the ensuing years (which I believe the original visualization was inviting the viewer to do). I introduced color encoding, which the original visualization did not include, based on quintile buckets and as such treated the variable in question (“new_confirmed”) as a discrete variable. </li>
+			<li>One potentially misleading component of this visualization was the increasing areas of the “chunk” shapes as time progressed year-to-year. I.e., by nesting 2020 inside of 2021 I accidentally created smaller colored areas as compared across months between 2020 and 2021. I address this in my next sketch! </li>
 			</ul>
 
 			<figure>
@@ -85,14 +95,11 @@
 				</figcaption>
 			</figure>
 
-			<p>
-				Design Rationale for Sketch 2:
-			</p>
+			<h3>Design Rationale for Sketch 2</h3>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>I was motivated to make sketch 2 following my creation of sketch 1, in which I introduced color encoding and a simplified, discrete schema for representing new confirmed COVID-19 cases. In this sketch I chose to represent the data as a sort of circular heat map-line graph hybrid. People learn visually in different ways! I made the design choice to play with a two-part representation of time, where year increased chronologically from left to right (more conventional) and month progressed clockwise in discrete circles (based on original visualization). I was also interested in designing for circle “chunks” that are the same size, as opposed to the nested concentric circles in sketch 1, and whether this changed the interpretation of the visual encoding. </li>
+				<li>The more that I drew and designed, the more I found myself thinking about what (or rather who) I was representing. Each of these numbers represents a real person—many of us included—who contracted COVID-19 at some point during January 2020-January 2022. Furthermore, the numbers in our dataset included information on tests (administered with real resources and by overburdened, frontline healthcare workers), recoveries (a loose term for many, who struggled with long COVID-19 and the physical impacts of pandemic mental health trauma), and deaths. As such, I became increasingly interested in finding a proxy for shocks to the system—both human and structural. I explored this in my next sketch. </li>
 			</ul>
 
 			<figure>
@@ -103,15 +110,23 @@
 				</figcaption>
 			</figure>
 
-			<p>
-				Design Rationale for Sketch 3:
-			</p>
+			<h3>Design Rationale for Sketch 3</h3>
+
+		
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>Although this is a very preliminary analytical approach (and not one I would call an index), I calculated month-to-month percent change in the number of new confirmed tests as one way to explore shocks to the system. I encoded the size of the percent change using size of the circle/oval to represent amount of percent change. Percent change circles found below the x-axis are those months for which the percent change was a decrease. </li>
+				<li>One unexpected outcome of my approach to this visualization (the joy of spontaneous drawing and creating!) is the spatial paradox introduced by these percent change bubbles. As we can see, the earliest months of the pandemic (in which we go from 12 confirmed cases in January to 89 confirmed cases in February to 197,137 confirmed cases in March) are the most visually striking in size, implying greater shocks to the system at the time. It is interesting to process the encoding of color and size simultaneously here. As compared to periods later in the pandemic in which there were many new confirmed COVID-19 case (e.g., buckets 4 and 5), February and March could appear “benign” depending on the visualizer’s design choices. Another interesting note is the relative size and presence of January 2022 in this visualization, even though we are only encoding 6 days of data for this month! </li>
+				<li>In a next sketch, I would hypothetically like to explore a different visual encoding than that used in this design. One idea is to represent increases (above x-axis) in green and decreases (below x-axis) in red for a more visually legible distinction between the two. </li>
 			</ul>
+
+			<figure>
+				<img src="images/percent change.png" alt="" 
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto;"/>
+				<figcaption>
+					Data Transformations Applied to Create Percent Change For the "new_confirmed" Column and Quintile Buckets | Source: Google Covid-19 Open Data
+				</figcaption>
+			</figure>
 		</section>
 
 		<section>
@@ -128,16 +143,24 @@
 		</section>
 
 		<section>
-			<h2>Design Process & Design Decisions</h2>
+			<h2>Design Choices, Insights, and Reflection</h2>
 
 			<p>
-        DESCRIBE YOUR DESIGN PROCESS AND DECISION DECISIONS HERE.
-      </p>
+				Author's positionality: Healthcare workers (as with teachers, frontline workers, homeless populations, and many others) did not have the affordances of feeling the pandemic in peaks and troughs. For them, the pandemic was utterly unyielding. In grounding myself for these visualizations, I held a few first-person “interviews” with my mom, a nurse who worked through the COVID-19 pandemic in New York City and State. Our home county held, for a period in the early pandemic, the highest rate of COVID-19 deaths in the country. We continue to feel this loss today.</p>
 
-      <h3>Reflection</h3>
+			<h3>Design Choices</h3>	
+				<p>My final visualization is entitled “Challenging Conceptions of COVID-19 Disease Incidence As A Critical Reframing on Healthcare Burden.” To produce these visualizations, I imported the .csv file (Figure 1) into R and worked with the ggplot and ggplot2 libraries. I had previously created and cleaned the file to produce the following columns aggregated by month: new_confirmed, new_deceased, new_tested, and bucket (quintile calculated from new_confirmed cases). As the original visualization depicted new_confirmed cases, this is the value that I used to encode color across the three snapshots. I chose to work with discrete quintile buckets derived from cumulative monthly aggregates because I believed it would be less visually overwhelming to a viewer and would capture the insights and trends at a high level to be effectively communicated to wide audiences. To produce the final visualization series, I used the same code and process within R across the three variables: new_confirmed, new_deceased, and new_tested. For each visualization, the fill (size of the “pie slices”) is encoded with the monthly aggregate number of the corresponding variable. After some research into disease statistical modeling, I opted to apply log transformations to all of the data in visualizing to account for skew. My final design was compiled with post-editing in and exported from Adobe Illustrator. </p>
 
+			<h3>Insights</h3>
+				<p>Ultimately, I found the process and final visualization to produce some very interesting insights. As we can see in the circular bar chart of new confirmed cases, there is a correlation between the color (new_confirmed encoding) and fill (new_confirmed encoding)—i.e., darker colors correlate to larger pie slices. This is to be expected as these variables are depicting the same thing. However, when we turn our attention to the circular bar charts of test and deaths we see discrepancies, suggesting that to have a holistic view of the pandemic’s impact requires more rigorous analysis than observation and visualization of new confirmed cases. Turning to the log transformation of new_tests, we can observe that the earlier months of the pandemic (through about June 2020) displayed a high amount of relative COVID-19 tests (encoded by fill) and lower amounts of relative confirmed COVID-19 cases (encoded by color). Looking to the later months of the pandemic (from about August 2021 through January 2022) we can observe a low amount of relative COVID-19 tests (encoded by fill) with higher amounts of relative confirmed COVID-19 cases (encoded by color). In the original visualization, the viewer was inclined to look to only the later months of the pandemic for dramatic trends. With this visualization I asked: How does it change our conception of the responsibility and human and economic cost of testing that was passed through the healthcare system to reconceptualize the early pandemic in this case? Continuing left to right to the log transformation of new_deaths, we can observe a high amount of relative deaths in the earlier months of the pandemic (encoded by fill) with lower amount of relative COVID-19 confirmed cases (encoded by color). Again, the original visualization designed these early as practically insignificant given the low relative number of confirmed COVID-19 cases.  With this visualization I asked: How can we assert the presence and the enduring memory of those we lost throughout the entire pandemic, including its earliest months? I also asked: What loss has been felt by families and medical workers alike to have lived through the embodied experience of these many deaths? </p>
+
+				<p>Data Rationale: I debated how to deal with the monthly aggregate treatment of this data set given that I only included the first 6 days of January 2022. In the end, I decided to keep the monthly buckets as is because I found it astonishing that from only 6 days, we were observing cumulative case, test, and death numbers that outnumbered earlier months with 28-31 days included. It is certainly a risk to choose to depict the data in this way as a viewer at a glance may not understand this design choice. Given that the visualization was accompanied by an article, I felt that in this context I would have the appropriate medium to at least offer rationale for this choice. In the end, it is not up to me but up to the consumer of information to take what they will and can from a visualization. </p>
+
+				<p>Design Rationale: Instead of superimposing the chart series over a white or single-colored background, I opted to make the background a piece of art speaking to the burden of healthcare workers during the COVID-19 pandemic. The piece was done by Dr. Lona Mody, a Co-Director of the Medical Arts Program at the University of Michigan, Ann Arbor. The piece is entitled “Outsized, Overwhelming Impact of COVID-19” and can be found, along with other artistic renderings of the pandemic’s deep trauma and emotionality, in the Nature Medicine <a href="https://www.nature.com/articles/d41591-021-00009-5" target="_blank">piece</a> “Art in a pandemic: a digital gallery.” </p>
+
+			<h3>Reflection</h3>
       <p>
-        WRITE YOUR FINAL REFLECTION HERE.
+        As I progressed through my sketches, I was increasingly moved by the desire to represent burden to the healthcare system and healthcare workers, who felt the impacts of COVID-19 without break. Looking at the original visualization, it is almost as though in highlighting the peaks (and growing intensity of confirmed cases in the face of the Omicron variant) the early days of the pandemic are represented favorably. As healthcare workers know well, many did not have the luxury of remembering COVID-19 as anything but a steady and terrifying stream. Although I concede that Dr. Shama and his team were not necessarily responsible for making this argument in this visualization, I felt highly compelled to re-examine the open-source data for tensions, contradictions, and divergent interpretations to give life to the many ways that our human workers and neighbors may have experienced this period. 
       </p>
 		</section>
 	</main>
