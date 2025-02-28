@@ -27,32 +27,41 @@
 				style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
 			</figure>
 
-			<p>
-				Insights about the data/visualization:
-			</p>
+			<h3>
+				Visualization Insights & Reactions
+			</h3>
+
+			<p>This visualization appeared in a <a href="https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html" target="_blank">Guest Essay</a> (Opinions Section) of the New York Times entitled “Here’s When We Expect Omicron to Peak,” on January 6, 2022. The article was authored by Dr. Jeffrey Shaman, a professor and scholar of infectious disease and environmental epidemiology. As part of his study on human-environmental interaction, Dr. Shaman creates mathematical models of infectious disease patterns, such as the one we are analyzing in this assignment. This visualization invites viewers to decipher some key visually encoded information about new COVID-19 cases in the United States:</p>
 
 			<ul>
-				<li>INSIGHT 1</li>
-				<li>INSIGHT 2</li>
-				<li>INSIGHT 3</li>
+				<li>Data is provided for the period January 2020 - January 2022, with successive years stacked on top of one another and months visualized on a radial spectrum. </li>
+				<li>The number of new COVID-19 cases tended to trend downwards in warmer months (roughly May-June). </li>
+				<li>Peak new COVID-19 numbers (based on naked eye approximation) appear to occur in mid-December 2020, mid-January 2021, and January 2022.</li>
+				<li>The styling of January 2022 cases implies sustained growth and appears to be the absolute peak to me. </li>
+				<li>Trough new COVID-19 numbers excepting disease onset (based on naked eye approximation) appear to occur in early June 2021. </li>
 			</ul>
 
-			<p>
-				Design Critique:
-			</p>
+			<h3>
+				Visualization Design Critiques
+			</h3>
+			<p>The visualization in question is inextricably linked to the context in which it is provided to the reader: as public health information during a pandemic, as the work of an environmental epidemiologist, and as a guest essay in the Opinion section. As such, we can imagine the target audience is NYT subscribers (as well as a wider range of media news consumers, following the Times’ dropping of its paywall on COVID-19 coverage). As we may remember, the average consumer of media news at the time of the article’s publication in January 2022 was intimately familiar with COVID-19 coverage. At the time, many people were engaged in an information environment in which they followed new daily case numbers. This article addresses the spread of Omicron, a less deadly but more contagious COVID-19 strain the wreaked havoc on case numbers in late 2021 and early 2022. Such is the contextual grounding of the visualization created by Dr. Shaman and his team.</p>
 
+			<p>Turning to explicit design considerations, I believe the visualization is generally eye-catching to readers with its Seussian form (fulfilling its purpose of disseminating epidemiological/public health information to the public). However, after exploring both the visualization and the data it encodes, I believe some tweaks to layout, styling, and labeling could be generally supportive. </p>
 			<ul>
-				<li>CRITIQUE 1</li>
-				<li>CRITIQUE 2</li>
-				<li>CRITIQUE 3</li>
+				<li>After making some minor design tweaks (centering radial circles, writing out every month name but in de-emphasized font styling, etc.) I would first deal with the treatment of color. Creating a color gradient that is quantitatively significant and derived from the # of new COVID-19 cases (such as the graduated color methodologies employed in choropleth mapping) would have made it easier for viewers to identify periods of greater disease incidence as compared across the three years. For instance, I believe the original visualization does not accurately portray the spike in cases that took place around September 2021. Additionally, employing three color gradients (one for each year) would be further conducive to encoding meaning through color. </li>
+				<li>It could also be useful to depict the passage of time differently than the original visualization. I appreciate the visualization’s affirmation of cyclical time and seasonality, and it is easy to infer where to start with reading the form chronologically. However, I would play with creating standardized concentric circles to represent years—both nested and unnested but existing next to one another in space.</li>
+				<li>Finally, and going beyond the data represented here, it would have been useful to include or create a proxy to represent hospital burden (# ICU beds in utilization, # hospitals with reported staffing shortages, # ventilators in deficit, etc.). Or if the inclusion of additional data is not possible, perhaps adding annotations around how these numbers contextualized within wider policy and pandemic developments as useful milestones for the viewer. The guest essay speaks the language of “long-term implications” and “burden” but there is no mention of the health system’s burden in this main visualization. </li>
 			</ul>
 		</section>
 
 		<section>
 			<h2>Visualization Sketches</h2>
 
+			<p>Note: To prepare the below visualizations, I applied some minor transformations and data cleaning to the original dataset. Firstly, I opted to work with data for the period of January 13, 2020 (the first day available in the dataset) through January 6, 2022 (the date of the article’s publication). Although we have consistent data available through September 15, 2022, I felt it was most realistic to work with roughly the available data that the epidemiologists and modelers had available to them at the time of publication and visualization creation.  </p>
+
       <figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/vis_01.jpg" alt="" 
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto;"/>
 				<figcaption>
           BRIEF CAPTION HERE.
 				</figcaption>
@@ -69,7 +78,8 @@
 			</ul>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/vis_02.jpg" alt=""
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
 				<figcaption>
           BRIEF CAPTION HERE.
 				</figcaption>
@@ -86,7 +96,8 @@
 			</ul>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/vis_03.jpg" alt="" 
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto;"/>
 				<figcaption>
           BRIEF CAPTION HERE.
 				</figcaption>
@@ -107,7 +118,8 @@
 			<h2>Final Visualization Design</h2>
       
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/a3_final.jpg" alt=""
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
 				<figcaption>
           BRIEF CAPTION HERE.
 				</figcaption>
